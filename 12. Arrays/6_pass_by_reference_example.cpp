@@ -17,6 +17,7 @@ int main(){
         cout << arr[i] << " ";
     }
     cout << endl;
+
     
     modifyArray(arr, 3);
     cout << "After Modification: ";
