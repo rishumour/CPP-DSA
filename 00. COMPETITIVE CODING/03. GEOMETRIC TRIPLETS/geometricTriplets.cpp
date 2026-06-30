@@ -30,8 +30,10 @@ vector<int> findGeometricTriplet(vector<int>& nums) {
     return {};
 }
 int main(){
+
     vector<int> nums = {2, 4, 6, 8, 32};
     vector<int> result = findGeometricTriplet(nums);
+    
     if (!result.empty()) {
         for(int i = 0; i < result.size(); i++){
             cout << "Triplet: " << result[i] << " ";
